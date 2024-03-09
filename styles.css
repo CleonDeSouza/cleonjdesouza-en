@@ -1,5 +1,5 @@
 p {
-    color: rgb(0, 39, 50);
+    color: rgb(255, 255, 255);
     font-size: 18px;
     font-family: Arial, sans-serif;
   }
@@ -12,4 +12,15 @@ img {
     border: 2px solid #333;
     background-color: #f0f0f0;
   }
+body {
+    background-color: white;
+    color: black;
+    text-align: center;
+  }
   
+.highlight {
+    background-color: yellow;
+    color: black;
+    padding: 5px 10px;
+    display: inline-block;
+  }
