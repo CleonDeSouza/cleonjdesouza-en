@@ -1,0 +1,15 @@
+p {
+    color: rgb(0, 39, 50);
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+  }
+
+img {
+    width: 512px;
+    height: 512px;
+    margin: 10px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    background-color: #f0f0f0;
+  }
+  
