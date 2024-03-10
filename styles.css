@@ -19,7 +19,7 @@ body {
   }
   
 .highlight {
-    background-color: yellow;
+    background-color: rgb(3, 3, 3);
     color: black;
     padding: 5px 10px;
     display: inline-block;
