@@ -1,0 +1,91 @@
+body{
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Madimi One', sans-serif;
+    padding: 5px 10px;
+}
+
+h1{
+    font-size: xx-large;
+}
+
+h2{
+    font-size: x-large;
+}
+
+p{
+    font-size: medium;
+}
+
+a:link{
+    font-size: medium;
+    color: rgb(255, 255, 255);
+}
+
+a:hover{
+    font-size: medium;
+    color: grey;
+}
+
+#images{
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+    background-color: grey;
+
+    position: sticky;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.highlight {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    display: inline-block;
+  }
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.button:hover {
+    background-color: #292929;
+}
+
+#highlight2 {
+    background-color: black;
+    color: white;
+}
+
+li:nth-child(even){
+    background-color: white;
+    color: black;
+}
+
+ol:nth-child(even){
+    background-color: white;
+    color: black;
+}
+
+ol:nth-child(odd){
+    background-color: black;
+    color: rgb(0, 0, 0);
+}
+
+li:nth-child(odd){
+    background-color: black;
+    color: white;
+}
